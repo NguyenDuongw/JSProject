@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+}
+input {
+    display: inline;
+    margin: 10px 0;
+}
+
+
+.hsg {
+    color: red;
+}
+
+table,th,td {
+    border: 1px solid black; 
+}
+table {
+    width: 100%;
+}
+#button1,button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

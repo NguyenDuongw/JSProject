@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuerry install -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Class Marksheet</h1>
+    <form>
+        <label>Họ tên: </label>
+        <input type="text" id="name"><br>
+        <label>Điểm toán: </label>
+        <input type="text" id="mathPoint"><br>
+        <label>Điểm lý: </label>
+        <input type="text" id="physicPoint"><br>
+        <label>Điểm hoá: </label>
+        <input type="text" id="chemicPoint"><br>
+    </form>
+    <button id="button1">Nhập điểm</button>
+
+    <table id="table">
+        <tr>
+            <th>STT</th>
+            <th>Họ tên</th>
+            <th>Toán</th>
+            <th>Lý</th>
+            <th>Hoá</th>
+            <th>Trung bình</th>
+        </tr>
+    </table>
+
+    <button id="button2">Tính điểm trung bình</button>
+    <button id="button3">Xác định học sinh giỏi</button>
+
+    <script src="java.js"></script>
+</body>
+</html>

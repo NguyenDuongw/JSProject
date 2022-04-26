@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boot trap install -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+</head>
+<body>
+    <h1>Class Marksheet</h1>
+    <div>
+        <p>Họ tên</p>
+        <input type="text" id="name"><br>
+    </div>
+    <div>
+        <p>Điểm toán</p>
+        <input type="text" id="mathPoint"><br>
+    </div>
+    <div>
+        <p>Điểm lý</p>
+        <input type="text" id="physicPoint"><br>
+    </div>
+    <div>
+        <p>Điểm hoá</p>
+        <input type="text" id="chemicPoint"><br>
+    </div>
+    <button onclick="insertPoint()">Nhập</button>
+
+    <table id="table">
+        <tr>
+            <th>STT</th>
+            <th>Họ tên</th>
+            <th>Toán</th>
+            <th>Lý</th>
+            <th>Hoá</th>
+            <th>Trung bình</th>
+        </tr>
+    </table>
+
+    <button onclick="calMedium()">Tính điểm trung bình</button>
+    <button onclick="findGood()">Xác định học sinh giỏi</button>
+
+    <script src="java.js"></script>
+</body>
+</html>
